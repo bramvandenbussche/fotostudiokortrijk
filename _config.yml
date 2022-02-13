@@ -1,0 +1,43 @@
+# YOUR NAME OR TITLE OF YOUR SITE
+name: Fotostudio Kortrijk
+
+# YOUR BRAND/PERSONAL TAGLINE
+tagline: "Op zoek naar een 📷 fotostudio te huur in Kortrijk? We've got you covered! Volg ons verhaal!"
+
+# YOUR/BRAND IMAGE URL
+Image_URL: https://secure.gravatar.com/avatar/966ffc611efed95e5f9189873f63d295?s=640
+
+# CHANGE THE BACKGROUND IMAGE OF THE WEBSITE BY JUST ADDING THE IMAGE URL
+# random image: https://source.unsplash.com/random/?photography+studio
+Cover_Image: https://images.unsplash.com/photo-1617463874381-85b513b3e991?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80
+
+# YOU CAN REMOVE FOOTER COMPLETELY BY SIMPLY REMOVING EITHER THE YES OR REMOVING THE FOOTER STATEMENT BELOW COMPLETELY
+footer: 'Yes'
+
+# STOP EDITING HERE ---------- YOU'VE REACHED THE END OF THE CONFIGURATION
+
+# Compress
+compress_html:
+  clippings: all
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - Icon
+
+# Base URL
+baseurl: /
+
+# Default Markdown Engine
+markdown: kramdown
+
+google_analytics: G-N67KGRZQMK
