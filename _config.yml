@@ -5,11 +5,11 @@ name: Fotostudio Kortrijk
 tagline: "Op zoek naar een 📷 fotostudio te huur in Kortrijk? We've got you covered! Volg ons verhaal!"
 
 # YOUR/BRAND IMAGE URL
-Image_URL: https://scontent-bru2-1.cdninstagram.com/v/t51.2885-15/e35/273806755_992561014695865_744690404335225485_n.webp.jpg?_nc_ht=scontent-bru2-1.cdninstagram.com&_nc_cat=101&_nc_ohc=XafMMcwS2PcAX_V5y5B&edm=ALQROFkBAAAA&ccb=7-4&ig_cache_key=Mjc3MTMwMTI3ODI0OTI3NTkyMg%3D%3D.2-ccb7-4&oh=00_AT-p3V_pm5PmTx31x4pjE7K20ZbvMT_MPueHPL7qqHENgw&oe=62102E18&_nc_sid=30a2ef
+Image_URL: /assets/img/profile.jpg
 
 # CHANGE THE BACKGROUND IMAGE OF THE WEBSITE BY JUST ADDING THE IMAGE URL
 # random image: https://source.unsplash.com/random/?photography+studio
-Cover_Image: https://images.unsplash.com/photo-1617463874381-85b513b3e991?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80
+Cover_Image: https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2232&q=80
 
 # YOU CAN REMOVE FOOTER COMPLETELY BY SIMPLY REMOVING EITHER THE YES OR REMOVING THE FOOTER STATEMENT BELOW COMPLETELY
 footer: 'Yes'
