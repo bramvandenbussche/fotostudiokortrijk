@@ -5,7 +5,7 @@ name: Fotostudio Kortrijk
 tagline: "Op zoek naar een 📷 fotostudio te huur in Kortrijk? We've got you covered! Volg ons verhaal!"
 
 # YOUR/BRAND IMAGE URL
-Image_URL: /assets/img/profile.jpg
+Image_URL: https://fotostudiokortrijk.be/assets/img/profile.jpg
 
 # CHANGE THE BACKGROUND IMAGE OF THE WEBSITE BY JUST ADDING THE IMAGE URL
 # random image: https://source.unsplash.com/random/?photography+studio
