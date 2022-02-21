@@ -1,5 +1,5 @@
 
-  # INSTAGRAM
+# INSTAGRAM
 - Name: Instagram
   URL: https://www.instagram.com
   Username: fotostudiokortrijk
@@ -56,12 +56,12 @@
 #   Color: '#E60023'
 #   Icon-Class: fab fa-pinterest
 
-#    # TIKTOK
-# - Name: TikTok
-#   URL: https://www.tiktok.com
-#   Username: 
-#   Color: '#FE2C55'
-#   Icon-Class: fab fa-tiktok
+# TIKTOK
+- Name: TikTok
+  URL: https://www.tiktok.com
+  Username: fotostudiokortrijk
+  Color: '#FE2C55'
+  Icon-Class: fab fa-tiktok
 
   # CUSTOM LINK
 # - Name: Website
@@ -70,7 +70,7 @@
 #   Color: '#ffb142'
 #   Text_Color: '#ffffff'
 
-  # EMAIL
+# EMAIL
 - Name: Email
   URL: 'mailto:bram@vandenbussche.me'
   Icon-Class: fas fa-envelope
