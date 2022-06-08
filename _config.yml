@@ -1,0 +1,32 @@
+title: Fotostudio Kortrijk - Huur een fotostudio
+description: Op zoek naar een goed uitgeruste fotostudio te huur regio Kortrijk? Kom eens langs!
+author: Bram Vandenbussche
+
+cookie-consent: We would like to use third party cookies and scripts to improve the functionality of this website.
+
+# Base URL
+baseurl: ""
+url: "https://dev.fotostudiokortrijk.be"
+google_analytics: UA-5000335-12
+
+# Compress
+compress_html:
+  clippings: all
+
+# Exclude files from build
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+highlighter: rouge
+
+# Default Markdown Engine
+markdown: kramdown
