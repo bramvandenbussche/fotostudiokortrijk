@@ -9,6 +9,8 @@
     {% include meta.html %}
 
     {% include analytics.html %}
+
+    {% include calendly.html %}
     
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
@@ -45,7 +47,7 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item ml-md-4">
-                        <a class="nav-link btn btn-primary" href="components.html">Boeken</a>
+                        <a class="nav-link btn btn-primary" href="#" {% include calendly_action.html %}>Boeken</a>
                     </li>
                 </ul>
             </div>
