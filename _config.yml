@@ -9,6 +9,13 @@ baseurl: ""
 url: "https://dev.fotostudiokortrijk.be"
 google_analytics: G-N67KGRZQMK
 
+# Socials
+social_instagram: https://www.instagram.com/fotostudiokortrijk
+social_facebook:
+social_twitter:
+social_tiktok: https://www.tiktok.com/@fotostudiokortrijk
+social_email: info@fotostudiokortrijk.be
+
 # Compress
 compress_html:
   clippings: all

@@ -1,5 +1,175 @@
 ---
-layout: main
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-Hello world!
+    {% include meta.html %}
+
+    {% include analytics.html %}
+    
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Bootstrap + Creative Design main styles -->
+	<link rel="stylesheet" href="assets/css/creative-design.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+    <!-- Page Navbar -->
+    <nav id="scrollspy" class="navbar page-navbar navbar-light navbar-expand-md fixed-top" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="navbar-brand" href="#"><strong class="text-primary">Fotostudio</strong> <span class="text-dark">Kortrijk</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Over ons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    <!-- </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testmonial">Testmonial</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item ml-md-4">
+                        <a class="nav-link btn btn-primary" href="components.html">Boeken</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><!-- End of Page Navbar -->   
+
+    {% include sections/header.html %}
+    
+    {% include sections/about.html %}
+
+
+    <!-- section -->
+    <section>
+        <!-- Container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6">
+                    <div class="img-wrapper">
+                        <div class="after"></div>
+                        <img src="assets/imgs/img-1.jpg" class="w-100" alt="About Us">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h6 class="title mb-3">Lorem ipsum dolor sit amet, consectetur.</h6>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae autem rem impedit molestiae hic ducimus, consequuntur ullam dolorem quaerat beatae labore explicabo, sint laboriosam aperiam nihil inventore facilis. Quasi, facilis.</p>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, amet!</p>
+                    <button class="btn btn-outline-primary btn-sm">Learn More</button>
+                </div>
+            </div>
+            <!-- End of Row -->
+        </div>  
+        <!-- End of Container -->
+    </section><!-- End of Section -->
+
+    <!-- section -->
+    <section>
+        <!-- Container -->
+        <div class="container">
+            <!-- Row -->
+            <div class="row justify-content-between align-items-center">                
+                <div class="col-md-5">
+                    <h6 class="title mb-3">Lorem ipsum dolor sit amet, consectetur.</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae autem rem impedit molestiae hic ducimus, consequuntur ullam dolorem quaerat beatae labore explicabo, sint laboriosam aperiam nihil inventore facilis. Quasi, facilis.</p>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, amet!</p>
+                    <button class="btn btn-outline-primary btn-sm">Learn More</button>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="img-wrapper">
+                        <div class="after right"></div>
+                        <img src="assets/imgs/img-2.jpg" class="w-100" alt="About Us">
+                    </div>                      
+                </div>
+            </div><!-- End of Row -->           
+        </div><!-- End of Container-->      
+    </section><!-- End of Section -->
+    
+
+    <!-- Features Section -->
+    <section class="has-bg-img" id="features">
+        <div class="overlay"></div>
+        <!-- Button trigger modal -->
+        <a data-toggle="modal" href="#exampleModalCenter">
+            <i></i>
+        </a>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                     <iframe width="100%" height="450px" class="border-0" 
+                    src="https://www.youtube.com/embed/tgbNyZ7vqY?controls=0">
+                    </iframe>
+                </div>
+            </div>
+        </div><!-- End of Modal -->     
+    </section><!-- End of features Section -->  
+
+    <!-- Section -->
+    <section>
+        <!-- Container -->
+        <div class="container">
+            <!-- Row -->
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6">
+                    <div class="img-wrapper">
+                        <div class="after"></div>
+                        <img src="assets/imgs/img-3.jpg" class="w-100" alt="About us">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h6 class="title mb-3">Lorem ipsum dolor sit amet, consectetur.</h6>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae autem rem impedit molestiae hic ducimus, consequuntur ullam dolorem quaerat beatae labore explicabo, sint laboriosam aperiam nihil inventore facilis. Quasi, facilis.</p>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, amet!</p>
+                    <button class="btn btn-outline-primary btn-sm">Learn More</button>
+                </div>
+            </div><!-- End of Row -->           
+        </div><!-- End of Container-->      
+    </section><!-- End of Section -->   
+
+    <!-- {% include sections/testimonials.html %} -->
+
+    <!-- Section -->
+    <section class="has-bg-img text-center text-light height-auto" style="background-image: url(assets/imgs/bg-img-2.jpg)">
+        <h1 class="display-4">LET’S TALK BUSINESS.</h1>
+    </section><!-- End of Section -->
+    
+
+    {% include sections/contact.html %}
+
+    {% include sections/footer.html %}
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Creative Design js -->
+    <script src="assets/js/creative-design.js"></script>
+
+</body>
+</html>
