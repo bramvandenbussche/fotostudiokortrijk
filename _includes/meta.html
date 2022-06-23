@@ -4,7 +4,29 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1 user-scalable=no, shrink-to-fit=no">
 <meta content='#000000' name='theme-color'/>
-<title>{{site.name}}</title>
+
+{% assign page_title = site.name %}
+{% assign page_description = site.tagline %}
+{% assign page_url = site.tagline %}
+
+<title>{{ page_title }}</title>
+
 <link rel="shortcut icon" href="https://images.weserv.nl/?url={{site.Image_URL}}&h=300&w=300&fit=cover&mask=circle&maxage=7d" onError="this.onerror=null;this.src='{% for link in site.links %}{% if link.Username and link.Name == 'GitHub' %}{{link.URL}}/{{link.Username}}.png{% endif %}{% endfor %}';" type="image/x-icon">
 <link rel="stylesheet" href="/assets/css/main.css">
 <script src="https://kit.fontawesome.com/609f7f6148.js" crossorigin="anonymous"></script>
+
+<meta name="description" content="{{ page_description }}" />
+
+<meta property="og:title" content="{{ page_title }}" />
+<meta property="og:site_name" content="{{ page_title }}" />
+<meta property="og:description " content="{{ page_description }}" />
+<meta property="og:url" content="{{ page_url }}" />
+<meta property="og:image" content="{{ site.Image_URL }}" />
+
+<meta name="twitter:card" content="summary_large_image"></meta>
+<meta name="twitter:creator" content="@vandenbusschebr"></meta>
+<meta name="twitter:title" content="{{ page_title }}">
+<meta name="twitter:description" content="{{ page_description }}">
+<meta name="twitter:image" content="{{ site.Image_URL }}">        
+<meta name="twitter:image:alt" content="Profile picture">
+<meta property="twitter:url" content="{{ page_url }}">
