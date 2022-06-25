@@ -33,16 +33,16 @@ layout: compress
                     {{site.tagline}}
                 </p>
 
+                <div class="my-10">                    
+                    {% include newsletter.html %}
+                    <hr class="my-2 opacity-25">
+                </div>
+
                 <div class="grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 my-7">
                 <!-- <div class="flex flex-wrap my-7"> -->
                     {% unless site.data.links == "" %}
                         {% include links.html %}
                     {% endunless %}
-                </div>
-
-                <div class="my-10">
-                    <hr class="my-2 opacity-25">
-                    {% include newsletter.html %}
                 </div>
             </span>
             {% if site.footer and site.footer == 'Yes' or site.footer == 'yes' or site.footer == 'y' or site.footer == 'Y' %}<div
