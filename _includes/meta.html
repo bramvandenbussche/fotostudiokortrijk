@@ -1,17 +1,25 @@
-<title>{{ site.title }}</title>
+{% assign page_title = site.name %}
+{% assign page_description = site.tagline %}
+{% assign page_url = site.tagline %}
 
-<meta name="description" content="{{ site.description }}" />
+<title>{{ page_title }}</title>
 
-<meta property="og:title" content="{{ site.title }}" />
-<meta property="og:site_name" content="{{ site.title }}" />
-<meta property="og:description " content="{{ site.description }}" />
-<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
-<meta property="og:image" content="{{ page_image }}" />
+<link rel="shortcut icon" href="https://images.weserv.nl/?url={{site.image_url}}&h=300&w=300&fit=cover&mask=circle&maxage=7d" onError="this.onerror=null;this.src='{% for link in site.links %}{% if link.Username and link.Name == 'GitHub' %}{{link.URL}}/{{link.Username}}.png{% endif %}{% endfor %}';" type="image/x-icon">
+<link rel="stylesheet" href="/assets/css/main.css">
+<script src="https://kit.fontawesome.com/609f7f6148.js" crossorigin="anonymous"></script>
+
+<meta name="description" content="{{ page_description }}" />
+
+<meta property="og:title" content="{{ page_title }}" />
+<meta property="og:site_name" content="{{ page_title }}" />
+<meta property="og:description " content="{{ page_description }}" />
+<meta property="og:url" content="{{ page_url }}" />
+<meta property="og:image" content="{{ site.image_url }}" />
 
 <meta name="twitter:card" content="summary_large_image"></meta>
-<meta name="twitter:creator" content="@{{ site.twitter-handle }}"></meta>
-<meta name="twitter:title" content="{{ site.title }}">
-<meta name="twitter:description" content="{{ site.description }}">
-<meta name="twitter:image" content="{{ page_image }}">        
+<meta name="twitter:creator" content="@vandenbusschebr"></meta>
+<meta name="twitter:title" content="{{ page_title }}">
+<meta name="twitter:description" content="{{ page_description }}">
+<meta name="twitter:image" content="{{ site.image_url }}">        
 <meta name="twitter:image:alt" content="Profile picture">
-<meta property="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+<meta property="twitter:url" content="{{ page_url }}">

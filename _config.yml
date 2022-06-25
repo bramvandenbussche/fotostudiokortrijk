@@ -6,6 +6,7 @@ cookie-consent: We would like to use third party cookies and scripts to improve 
 
 # Base URL
 baseurl: ""
+image_url: ""
 url: "https://dev.fotostudiokortrijk.be"
 google_analytics: G-N67KGRZQMK
 
