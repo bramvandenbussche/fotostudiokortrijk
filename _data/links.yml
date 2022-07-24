@@ -20,14 +20,14 @@
 #   Color: '#2867B2'
 #   Icon-Class: fab fa-linkedin-in
 
-  # FACEBOOK
-# - Name: Facebook
-#   URL: https://www.facebook.com
-#   Username: bramensofie
-#   Color: '#3b5998'
-#   Icon-Class: fab fa-facebook
+# FACEBOOK
+- Name: Facebook
+  URL: https://www.facebook.com
+  Username: fotostudiokortrijk
+  Color: '#3b5998'
+  Icon-Class: fab fa-facebook
 
-  # DISCORD
+# DISCORD
 # - Name: Discord
 #   URL: 'https://discordapp.com/users/'
 #   Username: 8442
@@ -35,7 +35,7 @@
 #   Color: '#5865F2'
 #   Text_Color: '#ffffff'
 
-  # GITHUB
+# GITHUB
 # - Name: GitHub
 #   URL: http://github.com
 #   Username: bramvandenbussche
@@ -63,12 +63,12 @@
   Color: '#FE2C55'
   Icon-Class: fab fa-tiktok
 
-  # CUSTOM LINK
-# - Name: Website
-#   URL: https://bramvandenbussche.be
-#   Icon-Class: fas fa-link
-#   Color: '#ffb142'
-#   Text_Color: '#ffffff'
+# CUSTOM LINK
+- Name: LinkedIn
+  URL: https://www.linkedin.com/company/fotostudio-kortrijk/
+  Icon-Class: fas fa-link
+  Color: '#0a66c2'
+  Text_Color: '#ffffff'
 
 # EMAIL
 - Name: Email
