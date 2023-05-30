@@ -1,26 +1,33 @@
-<!-- Contact Section -->
-<section id="contact" class="text-center">
-    <!-- container -->
+<!-- section -->
+<section id="contact">
+    <!-- Container -->
     <div class="container">
-        <h1>CONTACTEER ONS</h1>
-        <p class="mb-5">Vragen? Opmerkingen? Hebt u nood aan een persoonlijke aanpak, contacteer ons via email of telefoon en wij helpen u graag verder.</p>
+        <!-- row -->
+        <div class="row justify-content-between align-items-center">
+            <div class="col-md-6">
+                <div class="img-wrapper">
+                    <div class="after"></div>
+                    <img src="assets/imgs/profile.jpg" class="w-100" alt="Over ons">
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h6 class="title mb-3">Contacteer ons</h6>
+
+                <p class="mb-5">Vragen? Opmerkingen? Hebt u nood aan een persoonlijke aanpak, contacteer ons via email of telefoon en wij helpen u graag verder.</p>
         
-        <!-- Contact form -->
-        <form class="contact-form col-md-11 col-lg-9 mx-auto">
-            <div class="form-row">
-                <div class="col form-group">
-                    <input type="text" class="form-control" placeholder="Name">
-                </div>
-                <div class="col form-group">
-                    <input type="email" class="form-control" placeholder="Email">
-                </div>
+                <p class="">
+                    Email: <a href="mailto:info@fotostudiokortrijk.be">info[at]fotostudiokortrijk.be</a>
+                    <br>
+                    Mobiel: +32 497 21 33 04
+                </p>
+
+                <p class="mb-3">Wenst u gebruik te maken van de studio dan kan u steeds online een reservatie maken via onderstaande knop:</p>
+               
+                
+                <button class="btn btn-outline-secondary btn-sm" {% include calendly_action.html %}>Studio boeken</button>
             </div>
-            <div class="form-group">
-                <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Your Message"></textarea>
-            </div>
-            <div class="form-group">
-                <input type="submit" class="btn btn-primary btn-block" value="Send Message">
-            </div>
-        </form><!-- End of Contact form -->
-    </div><!-- End of Container-->      
-</section><!-- End of Contact Section -->
+        </div>
+        <!-- End of Row -->
+    </div>  
+    <!-- End of Container -->
+</section><!-- End of Section -->
