@@ -20,44 +20,12 @@
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    
-    <!-- Page Navbar -->
-    <nav id="scrollspy" class="navbar page-navbar navbar-light navbar-expand-md fixed-top" data-spy="affix" data-offset-top="20">
-        <div class="container">
-            <a class="navbar-brand" href="#"><strong class="text-primary">Fotostudio</strong> <span class="text-dark">Kortrijk</span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Over ons</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#studio">Studio</a>
-                    <!-- </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testmonial">Testmonial</a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item ml-md-4">
-                        <a class="nav-link btn btn-primary" href="#" {% include calendly_action.html %}>Boeken</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav><!-- End of Page Navbar -->   
+    {% include sections/navbar.html %}
 
     {% include sections/header.html %}
     
     {% include sections/about.html %}
-
 
     {% include sections/image-left.html %}
 
@@ -82,7 +50,7 @@
                 </div>
             </div>
         </div><!-- End of Modal -->     
-    </section><!-- End of features Section -->  
+    </section><!-- End of features Section -->
 
     {% include sections/image-left.html %}
 
