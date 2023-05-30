@@ -43,7 +43,7 @@ $brand_gold:      #938D55;
 $brand_teal:      #005256;
 
 $brand_blue:      #00234B;
-$brand_dark_gray: #2c363B;
+$brand_dark_gray: #2C363B;
 $brand_light_gray:#EEEDEE;
 
 $colors: ();
@@ -63,14 +63,14 @@ $colors: map-merge((
   "gray-dark":  $gray-800
 ), $colors);
 
-$primary:       $yellow;
-$secondary:     $gray-600;
+$primary:       $brand_blue;
+$secondary:     $brand_gold;
 $success:       $green;
 $info:          $cyan;
 $warning:       $orange;
 $danger:        $red;
-$light:         $gray-100;
-$dark:          $gray-800;
+$light:         $brand_light_gray;
+$dark:          $brand_dark_gray;
 
 $theme-colors: ();
 $theme-colors: map-merge((
