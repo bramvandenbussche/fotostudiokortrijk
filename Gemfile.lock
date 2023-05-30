@@ -63,6 +63,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-sass-converter
   kramdown-parser-gfm
   webrick (~> 1.7)
 

@@ -38,3 +38,7 @@ highlighter: rouge
 
 # Default Markdown Engine
 markdown: kramdown
+
+sass:
+  sass_dir: _sass
+  sourcemap: development

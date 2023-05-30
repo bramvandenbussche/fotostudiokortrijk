@@ -11,6 +11,7 @@ source "http://rubygems.org"
 # Happy Jekylling!
 
 gem "jekyll"
+gem 'jekyll-sass-converter'
 
 
 group :jekyll_plugins do
