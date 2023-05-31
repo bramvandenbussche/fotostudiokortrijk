@@ -2,7 +2,7 @@
 nav.page-navbar {
 	min-height: 70px;
 	padding: 0 30px;
-	background-color: rgba($gray-800, .3);
+	background-color: rgba($gray-800, .4);
 	@include custom-transition(all,.3s,0s);
 
 	.navbar-brand {
@@ -20,13 +20,13 @@ nav.page-navbar {
 			color: $gray-300;
 			font-weight: 400;
 			&.active {
-				color: $secondary;
+				color: $brand_dark_gray;
 			}
 		}
 
-		.btn {
-			color: $gray-900 !important;
-		}	
+		// .btn {
+		// 	color: $gray-900 !important;
+		// }
 	}
 
 	@include media-breakpoint-down(sm) {
