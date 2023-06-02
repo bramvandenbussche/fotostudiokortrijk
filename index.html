@@ -1,53 +1,23 @@
 ---
+layout: main
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    {% include meta.html %}
+{% include sections/navbar.html %}
 
-    {% include analytics.html %}
+{% include sections/header.html %}
 
-    {% include calendly.html %}
-    
-    <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+{% include sections/studio.html %}
 
-    <!-- Bootstrap + Creative Design main styles -->
-	<link rel="stylesheet" href="assets/css/creative-design.css">
+{% include sections/templates/separator-image.html %}
 
-</head>
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="top">
+{% include sections/pricing.html %}
 
-    {% include sections/navbar.html %}
+{% include sections/materials.html %}
 
-    {% include sections/header.html %}
-    
-    {% include sections/studio.html %}
+{% include sections/testimonials.html %}
 
-    {% include sections/pricing.html %}
+{% include sections/location.html %}
 
-    {% include sections/materials.html %}
+{% include sections/contact.html %}
 
-    {% include sections/testimonials.html %}
-
-    {% include sections/location.html %}
-
-    {% include sections/contact.html %}
-
-    {% include sections/footer.html %}
-
-    <!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
-
-    <!-- bootstrap affix -->
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
-
-    <!-- Creative Design js -->
-    <script src="assets/js/creative-design.js"></script>
-
-</body>
-</html>
+{% include sections/footer.html %}
