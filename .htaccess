@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+Redirect 302 /opening https://docs.google.com/forms/d/e/1FAIpQLSdjg-k6M8j5UEHVI4v-YHZ0eaC385MvzzcOV3Quf3DDHXpfgQ/viewform
+Redirect 302 /qr1 /
+
+</IfModule>
