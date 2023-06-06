@@ -20,13 +20,13 @@
                         <!-- row -->
                         <div class="row">
                             <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Periode</th>
-                                    <th>Week</th>
-                                    <th>Weekend</th>
-                                </tr>
-                            </thead>
+                                <thead>
+                                    <tr>
+                                        <th>Periode</th>
+                                        <th>Week</th>
+                                        <th>Weekend</th>
+                                    </tr>
+                                </thead>
                                 <tbody>
                                     <tr>
                                         <td>2 uur</td>
@@ -49,27 +49,32 @@
                                         <td>450 EUR</td>
                                     </tr>
                                     <tr>
-                                        <td>Heel weekend<br>(zaterdag & zondag telkens 8u - 24u)</td>
+                                        <td>Heel weekend<br>(zaterdag &amp; zondag telkens 8u - 24u)</td>
                                         <td>-</td>
                                         <td>750 EUR</td>
                                     </tr>
                                 </tbody>
                             </table>
-
-                            <p>ℹ️ Prijzen zijn inclusief BTW</p>
+                        </div><!-- End of Row -->
+                        
+                        <div class="row justify-content-end">
+                            <p class="col-md-6">ℹ️ Prijzen zijn inclusief BTW</p>
+                            <div class="col-md-2 offset-md-4">
+                                <button class="btn btn-outline-secondary btn-block" {% include calendly_action.html a1="Particulier" %}>Boeken</button>
+                            </div>
                         </div><!-- End of Row -->
                     </div>
                     <div class="tab-pane fade" id="pricing-professional" role="tabpanel">
                         <!-- row -->
                         <div class="row">
                             <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Periode</th>
-                                    <th>Week</th>
-                                    <th>Weekend</th>
-                                </tr>
-                            </thead>
+                                <thead>
+                                    <tr>
+                                        <th>Periode</th>
+                                        <th>Week</th>
+                                        <th>Weekend</th>
+                                    </tr>
+                                </thead>
                                 <tbody>
                                     <tr>
                                         <td>2 uur</td>
@@ -92,23 +97,23 @@
                                         <td>450 EUR</td>
                                     </tr>
                                     <tr>
-                                        <td>Heel weekend<br>(zaterdag & zondag telkens 8u - 24u)</td>
+                                        <td>Heel weekend<br>(zaterdag &amp; zondag telkens 8u - 24u)</td>
                                         <td>-</td>
                                         <td>750 EUR</td>
                                     </tr>
                                 </tbody>
                             </table>
+                        </div><!-- End of Row -->
 
-                            <p>ℹ️ Prijzen zijn exclusief BTW</p>
+                        <div class="row justify-content-end">
+                            <p class="col-md-6">ℹ️ Prijzen zijn exclusief BTW</p>
+                            <div class="col-md-2 offset-md-4">
+                                <button class="btn btn-outline-secondary btn-block" {% include calendly_action.html a1="Bedrijf" %}>Boeken</button>
+                            </div>
                         </div><!-- End of Row -->
                     </div>
                 </div>
-
-                
-
-
-                
             </div>
-        </div><!-- End of About Wrapper -->
+        </div><!-- End of Pricing Wrapper -->
     </div>  <!-- End of Container-->
  </section><!--End of Section -->
