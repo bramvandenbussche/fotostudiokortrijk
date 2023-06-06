@@ -1,1 +1,23 @@
-onclick="Calendly.initPopupWidget({url: 'https://calendly.com/d/y6p-6z4-wvn?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;"
+---
+---
+{%- if include.base -%}
+    {% assign base_url = include.base %}
+{% else %}
+    {% assign base_url = "https://calendly.com/d/y6p-6z4-wvn" %}
+{% endif %}
+
+{% assign url = base_url | append: "?hide_landing_page_details=1&hide_gdpr_banner=1" %}
+
+{%- if include.a1 -%}
+    {%- assign url = url | append: "&a1=" | append: include.a1 -%}
+{% endif %}
+
+{%- if include.a2 -%}
+    {%- assign url = url | append: "&a2=" | append: include.a2 -%}
+{% endif %}
+
+{%- if include.a3 -%}
+    {%- assign url = url | append: "&a3=" | append: include.a3 -%}
+{% endif %}
+
+onclick="Calendly.initPopupWidget({url: '{{ url }}'});return false;"
