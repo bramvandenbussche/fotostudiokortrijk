@@ -5,5 +5,6 @@ Redirect 302 /opening https://docs.google.com/forms/d/e/1FAIpQLSdjg-k6M8j5UEHVI4
 Redirect 302 /qr1 /
 Redirect 302 /qr2 /
 Redirect 302 /reserveren https://calendly.com/d/y6p-6z4-wvn
+Redirect 302 /kennismaking https://calendly.com/fotostudiokortrijk/kennismaking
 
 </IfModule>
