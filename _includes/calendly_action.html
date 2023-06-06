@@ -8,6 +8,13 @@
 
 {% assign url = base_url | append: "?hide_landing_page_details=1&hide_gdpr_banner=1" %}
 
+{% assign url = url | append: "&utm_source=website" %}
+{% if include.location %}
+    {% assign url = url | append: "&utm_content=" | append: include.location %}
+{% endif%}
+
+
+
 {%- if include.a1 -%}
     {%- assign url = url | append: "&a1=" | append: include.a1 -%}
 {% endif %}
