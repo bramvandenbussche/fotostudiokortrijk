@@ -8,3 +8,7 @@ p {
 .title {
 	font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1300 - 300)));
 }
+
+.text-highlight {
+	color: $brand_gold;
+}
