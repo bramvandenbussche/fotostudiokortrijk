@@ -1,0 +1,47 @@
+- id: "consumer-2h"
+  type: "consumer"
+  duration: 2
+  tariffWeek: 80
+  tariffWeekend: 90
+
+- id: "consumer-4h"
+  type: "consumer"
+  duration: 4
+  tariffWeek: 150
+  tariffWeekend: 175
+
+- id: "consumer-8h"
+  type: "consumer"
+  duration: 8
+  tariffWeek: 290
+  tariffWeekend: 325
+
+- id: "consumer-12h"
+  type: "consumer"
+  duration: 12
+  tariffWeek: 420
+  tariffWeekend: 450
+
+- id: "business-2h"
+  type: "business"
+  duration: 2
+  tariffWeek: 80
+  tariffWeekend: 90
+
+- id: "business-4h"
+  type: "business"
+  duration: 4
+  tariffWeek: 150
+  tariffWeekend: 175
+
+- id: "business-8h"
+  type: "business"
+  duration: 8
+  tariffWeek: 290
+  tariffWeekend: 325
+
+- id: "business-12h"
+  type: "business"
+  duration: 12
+  tariffWeek: 420
+  tariffWeekend: 450

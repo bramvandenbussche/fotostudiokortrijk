@@ -1,7 +1,5 @@
----
----
-{%- if include.base -%}
-    {% assign base_url = include.base %}
+{% if include.base %}
+    {% assign base_url = include.base | prepend: "https://calendly.com/fotostudiokortrijk/" %}
 {% else %}
     {% assign base_url = "https://calendly.com/d/y6p-6z4-wvn" %}
 {% endif %}

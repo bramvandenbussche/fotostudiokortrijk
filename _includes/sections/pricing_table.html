@@ -1,0 +1,28 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Periode</th>
+            <th>Week</th>
+            <th>Weekend</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for price in site.data.prices %}
+            {% if price.type == include.type %}
+                {% assign base_week = include.type | append: "-week-" | append: price.duration | append: "h" %}
+                {% assign base_weekend = include.type | append: "-weekend-" | append: price.duration | append: "h" %}
+                {% assign location = include.type | append: "-direct" | prepend: "pricing-" %}
+                <tr>
+                    <td>{{ price.duration }} uur</td>
+                    <td><a href="#" {% include calendly_action.html location=location base=base_week %}>{{ price.tariffWeek}} EUR</a></td>
+                    <td><a href="#" {% include calendly_action.html location=location base=base_weekend %}>{{ price.tariffWeekend}} EUR</a></td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+        <tr>
+            <td>Heel weekend<br>(zaterdag &amp; zondag telkens 8u - 24u)</td>
+            <td>-</td>
+            <td>750 EUR</td>
+        </tr>
+    </tbody>
+</table>

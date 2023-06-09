@@ -19,42 +19,7 @@
                     <div class="tab-pane fade show active" id="pricing-consumer" role="tabpanel">
                         <!-- row -->
                         <div class="row">
-                            <table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th>Periode</th>
-                                        <th>Week</th>
-                                        <th>Weekend</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>2 uur</td>
-                                        <td>80 EUR</td>
-                                        <td>90 EUR</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4 uur</td>
-                                        <td>150 EUR</td>
-                                        <td>175 EUR</td>
-                                    </tr>
-                                    <tr>
-                                        <td>8 uur</td>
-                                        <td>290 EUR</td>
-                                        <td>325 EUR</td>
-                                    </tr>
-                                    <tr>
-                                        <td>12 uur</td>
-                                        <td>420 EUR</td>
-                                        <td>450 EUR</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Heel weekend<br>(zaterdag &amp; zondag telkens 8u - 24u)</td>
-                                        <td>-</td>
-                                        <td>750 EUR</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            {% include sections/pricing_table.html type="consumer" %}
                         </div><!-- End of Row -->
                         
                         <div class="row justify-content-end">
@@ -66,43 +31,8 @@
                     </div>
                     <div class="tab-pane fade" id="pricing-professional" role="tabpanel">
                         <!-- row -->
-                        <div class="row">
-                            <table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th>Periode</th>
-                                        <th>Week</th>
-                                        <th>Weekend</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>2 uur</td>
-                                        <td>80 EUR</td>
-                                        <td>90 EUR</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4 uur</td>
-                                        <td>150 EUR</td>
-                                        <td>175 EUR</td>
-                                    </tr>
-                                    <tr>
-                                        <td>8 uur</td>
-                                        <td>290 EUR</td>
-                                        <td>325 EUR</td>
-                                    </tr>
-                                    <tr>
-                                        <td>12 uur</td>
-                                        <td>420 EUR</td>
-                                        <td>450 EUR</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Heel weekend<br>(zaterdag &amp; zondag telkens 8u - 24u)</td>
-                                        <td>-</td>
-                                        <td>750 EUR</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        <div class="row">                            
+                            {% include sections/pricing_table.html type="business" %}
                         </div><!-- End of Row -->
 
                         <div class="row justify-content-end">
