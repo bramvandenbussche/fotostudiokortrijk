@@ -13,11 +13,12 @@ google_tagmanager: GTM-5VQJGCP
 
 # Socials
 social_instagram: https://www.instagram.com/fotostudiokortrijk
-social_facebook:
+social_facebook: https://www.facebook.com/fotostudiokortrijk
 social_twitter:
 social_tiktok: https://www.tiktok.com/@fotostudiokortrijk
 social_linkedin: https://www.linkedin.com/company/fotostudio-kortrijk
 social_email: info@fotostudiokortrijk.be
+social_phone: +32 497 21 33 04
 
 # Compress
 compress_html:
