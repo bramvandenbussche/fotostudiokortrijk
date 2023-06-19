@@ -6,10 +6,12 @@
 
     ol {
         counter-reset: item;
+        margin-top: 5px;
     }
 
     ol li {
         display: block;
+        margin-bottom: 10px;
     }
 
     ol > li::marker {
@@ -19,6 +21,7 @@
     ol li:before {
         content: counters(item, ".") " ";
         counter-increment: item;
+        margin-right: 10px;
     }
 
     h1 {
