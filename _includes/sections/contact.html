@@ -15,17 +15,16 @@
 
                 <p class="mb-5">Vragen? Opmerkingen? Hebt u nood aan een persoonlijke aanpak, contacteer ons via email of telefoon en wij helpen u graag verder.</p>
         
-                <p class="">
-                    Email: <a href="mailto:{{site.social_email}}">info[at]fotostudiokortrijk.be</a>
-                    <br>
-                    Mobiel: {{ site.social_phone}}
+                <p>
+                    <i class="ti-location-pin"></i> <a href="https://goo.gl/maps/kdAvtpX2GAqtF4Ke6" target="_blank">Markekerkstraat 40 - 8510 Marke</a><br>
+                    <i class="ti-email"></i> <a href="mailto:{{ site.social_email }}" target="_blank">{{ site.social_email }}</a><br>
+                    <i class="ti-mobile"></i> <a href="tel:{{ site.social_phone }}">{{ site.social_phone }}</a>
                 </p>
 
                 <p class="mb-3">Wenst u gebruik te maken van de studio dan kan u steeds online een reservatie maken via onderstaande knop:</p>
                
                                
                 <button class="btn btn-secondary btn-sm btn-book" {% include calendly_action.html location="contact" %}>Studio boeken</button>
-                <a href="mailto:{{site.social_email}}" class="btn btn-outline-secondary btn-sm">Stuur een email</a>
             </div>
         </div>
         <!-- End of Row -->
