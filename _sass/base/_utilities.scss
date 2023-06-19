@@ -4,15 +4,15 @@
 .bg-info,
 .bg-warning,
 .bg-danger,
-.bg-dark{
-	.navbar-brand{ 
+.bg-dark {
+	.navbar-brand { 
 		color: $white; 
 		&:hover { color: darken($white, 10%); }
 	}
 }
 
-.bg-light{
-	.navbar-brand{ 
+.bg-light {
+	.navbar-brand { 
 		color: $dark; 
 		&:hover { color: darken($dark, 10%); }
 	}
