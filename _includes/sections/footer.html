@@ -4,60 +4,19 @@
     <div class="container">
         <!-- Pre footer -->
         <div class="pre-footer">
-            <!-- <ul class="list">
-                <li class="list-head">
-                    <h6 class="font-weight-bold">OVER ONS</h6>
-                </li>
-                <li class="list-body">
-                    <p>{{ site.description }}</p>
-                    <a href="#"><strong class="text-primary">Fotostudio</strong> <span class="text-dark">Kortrijk</span></a>
-                </li>
-            </ul> -->
-            <!-- <ul class="list">
-                <li class="list-head">
-                    <h6 class="font-weight-bold">USEFUL LINKS</h6>
-                </li>
-                <li class="list-body">
-                    <div class="row">
-                        <div class="col">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
-                            <a href="#">Link 4</a>
-                        </div>
-                        <div class="col">
-                            <a href="#">Link 5</a>
-                            <a href="#">Link 6</a>
-                            <a href="#">Link 7</a>
-                            <a href="#">Link 8</a>
-                        </div>
-                    </div>
-                </li>
-            </ul> -->
-            <ul class="list">
-                <li class="list-head">
-                    <h6 class="font-weight-bold">OVER ONS</h6>
-                </li>
-                <li class="list-body">
-                    <p>Stuur ons een berichtje en we contacteren u zo snel mogelijk</p>
-                    <p><i class="ti-location-pin"></i> Markekerkstraat 40 - 8510 Marke</p>
-                    {% if site.social_email %}<p><i class="ti-email"></i> {{ site.social_email }}</p>{% endif %}
-                    {% if site.social_phone %}<p><i class="ti-mobile"></i> {{ site.social_phone }}</p>{% endif %}
-                    <p><i class="ti-briefcase"></i> BTW BE 0891 228 971</p>
-                    <div class="social-links">
-                        {% if site.social_facebook %}<a href="{{ site.social_facebook }}" class="link"><i class="ti-facebook"></i></a>{% endif %}
-                        {% if site.social_twitter %}<a href="{{ site.social_twitter }}" class="link"><i class="ti-twitter-alt"></i></a>{% endif %}                        
-                        {% if site.social_instagram %}<a href="{{ site.social_instagram }}" class="link"><i class="ti-instagram"></i></a>{% endif %}
-                        {% if site.social_linkedin %}<a href="{{ site.social_linkedin }}" class="link"><i class="ti-linkedin"></i></a>{% endif %}
-                        {% if site.social_tiktok %}<a href="{{ site.social_tiktok }}" class="link"><i class="ti-tiktok"></i></a>{% endif %}
-                    </div>
-                </li>
-            </ul> 
+            
+            
+            {% include footer/about.html %}
+
+            {% include footer/contact.html %}
+
+            {% include footer/links.html %}
+
         </div><!-- End of Pre footer -->            
 
         <!-- foooter -->
         <footer class="footer">            
-            <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="https://fotostudiokortrijk.be">Fotostudio Kortrijk</a></p>
+            <p>&copy; 2022-<script>document.write(new Date().getFullYear())</script> <a href="https://fotostudiokortrijk.be">Fotostudio Kortrijk</a> - Alle rechten voorbehouden</p>
         </footer><!-- End of Footer-->  
         
     </div><!--End of Container -->      
