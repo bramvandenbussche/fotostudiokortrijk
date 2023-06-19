@@ -16,15 +16,16 @@
                 <p class="mb-5">Vragen? Opmerkingen? Hebt u nood aan een persoonlijke aanpak, contacteer ons via email of telefoon en wij helpen u graag verder.</p>
         
                 <p class="">
-                    Email: <a href="mailto:info@fotostudiokortrijk.be">info[at]fotostudiokortrijk.be</a>
+                    Email: <a href="mailto:{{site.social_email}}">info[at]fotostudiokortrijk.be</a>
                     <br>
-                    Mobiel: +32 497 21 33 04
+                    Mobiel: {{ site.social_phone}}
                 </p>
 
                 <p class="mb-3">Wenst u gebruik te maken van de studio dan kan u steeds online een reservatie maken via onderstaande knop:</p>
                
-                
-                <button class="btn btn-outline-secondary btn-sm btn-book" {% include calendly_action.html location="contact" %}>Studio boeken</button>
+                               
+                <button class="btn btn-secondary btn-sm btn-book" {% include calendly_action.html location="contact" %}>Studio boeken</button>
+                <a href="mailto:{{site.social_email}}" class="btn btn-outline-secondary btn-sm">Stuur een email</a>
             </div>
         </div>
         <!-- End of Row -->
