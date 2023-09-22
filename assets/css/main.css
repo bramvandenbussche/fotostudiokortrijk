@@ -1,20 +1,21 @@
 ---
+# Front matter comment to ensure Jekyll properly reads file.
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web');
 @import url(https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-5a9c68d/base.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-5a9c68d/components.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-5a9c68d/utilities.min.css);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body,
-html {
-    a{
+
+    a {
         outline: none;
-    }
-    font-family: 'Poppins', sans-serif;
+    }    
     #image {
         transition: all 0.5s ease;
         background-position: center;
@@ -25,6 +26,7 @@ html {
             background-color: black;
         }
     }
+
     .links {
         transition: all ease 0.25s;
         &:hover {
@@ -47,4 +49,17 @@ html {
             align-items: center;
         }
     }
+
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 25px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
 }
