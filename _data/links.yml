@@ -1,18 +1,11 @@
-
-# Website
-- Name: Website
-  URL: https://fotostudiokortrijk.be
-  Color: '#1a5273'
-  Icon-Class: fas fa-globe
-
 # Kennismaking
 - Name: Kennismaking Boeken
   URL: https://fotostudiokortrijk.be/kennismaking
   Description: Wil je graag eens komen kijken naar wat de studio voor jou kan betekenen? Boek een kennismaking en kom eens langs!
   Color: '#1a5273'
   Icon-Class: fas fa-street-view
-
-# Boeken
+  
+  # Boeken
 - Name: Studio Boeken
   URL: https://fotostudiokortrijk.be/reserveren
   Color: '#a19f76'
@@ -24,6 +17,12 @@
   Icon-Class: fas fa-coins
   Color: '#1a5273'
   Text_Color: '#fff'
+
+# Website
+- Name: Website
+  URL: https://fotostudiokortrijk.be
+  Color: '#1a5273'
+  Icon-Class: fas fa-globe
 
 # Workshop
 - Name: Workshop
