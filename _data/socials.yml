@@ -1,0 +1,28 @@
+
+# INSTAGRAM
+- Name: Instagram
+  URL: https://www.instagram.com
+  Username: fotostudiokortrijk
+  Color: '#DD2A7B'
+  Icon-Class: fab fa-instagram
+
+# FACEBOOK
+- Name: Facebook
+  URL: https://www.facebook.com
+  Username: fotostudiokortrijk
+  Color: '#3b5998'
+  Icon-Class: fab fa-facebook
+
+# TIKTOK
+- Name: TikTok
+  URL: https://www.tiktok.com
+  Username: '@fotostudiokortrijk'
+  Color: '#FE2C55'
+  Icon-Class: fab fa-tiktok
+
+# LinkedIn
+- Name: LinkedIn
+  URL: https://www.linkedin.com/company/fotostudio-kortrijk/
+  Icon-Class: fab fa-linkedin
+  Color: '#0a66c2'
+  Text_Color: '#ffffff'

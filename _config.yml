@@ -2,7 +2,7 @@
 name: Fotostudio Kortrijk
 
 # YOUR BRAND/PERSONAL TAGLINE
-tagline: "Op zoek naar een 📷 fotostudio te huur in Kortrijk? We've got you covered!"
+tagline: "Op zoek naar een professionele 📷 fotostudio te huur in Kortrijk? We've got you covered!"
 
 # YOUR/BRAND IMAGE URL
 Image_URL: https://fotostudiokortrijk.be/assets/img/profile.jpg
@@ -41,3 +41,7 @@ baseurl: /
 markdown: kramdown
 
 google_analytics: G-N67KGRZQMK
+
+sass:
+  sass_dir: _sass
+  sourcemap: development

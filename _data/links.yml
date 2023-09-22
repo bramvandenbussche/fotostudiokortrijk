@@ -1,78 +1,33 @@
 
-# INSTAGRAM
-- Name: Instagram
-  URL: https://www.instagram.com
-  Username: fotostudiokortrijk
-  Color: '#DD2A7B'
-  Icon-Class: fab fa-instagram
+# Website
+- Name: Website
+  URL: https://fotostudiokortrijk.be
+  Color: '#1a5273'
+  Icon-Class: fas fa-globe
 
-  # TWITTER
-# - Name: Twitter
-#   URL: https://twitter.com
-#   Username: vandenbusschebr
-#   Color: '#1DA1F2'
-#   Icon-Class: fab fa-twitter
-  
-  # LINKEDIN
-# - Name: LinkedIn
-#   URL: https://www.linkedin.com/in
-#   Username: bramvandenbussche
-#   Color: '#2867B2'
-#   Icon-Class: fab fa-linkedin-in
+# Kennismaking
+- Name: Kennismaking Boeken
+  URL: https://fotostudiokortrijk.be/kennismaking
+  Description: Wil je graag eens komen kijken naar wat de studio voor jou kan betekenen? Boek een kennismaking en kom eens langs!
+  Color: '#1a5273'
+  Icon-Class: fas fa-street-view
 
-# FACEBOOK
-- Name: Facebook
-  URL: https://www.facebook.com
-  Username: fotostudiokortrijk
-  Color: '#3b5998'
-  Icon-Class: fab fa-facebook
+# Boeken
+- Name: Studio Boeken
+  URL: https://fotostudiokortrijk.be/reserveren
+  Color: '#a19f76'
+  Icon-Class: fas fa-calendar-week
 
-# DISCORD
-# - Name: Discord
-#   URL: 'https://discordapp.com/users/'
-#   Username: 8442
-#   Icon-Class: fab fa-discord
-#   Color: '#5865F2'
-#   Text_Color: '#ffffff'
+# Prijzen
+- Name: Prijzen
+  URL: https://fotostudiokortrijk.be#prijzen
+  Icon-Class: fas fa-coins
+  Color: '#1a5273'
+  Text_Color: '#fff'
 
-# GITHUB
-# - Name: GitHub
-#   URL: http://github.com
-#   Username: bramvandenbussche
-#   Color: '#6422c5'
-#   Icon-Class: fab fa-github
-
-  # REDDIT
-# - Name: Reddit
-#   URL: http://reddit.com/u
-#   Username: vandenbusscheb
-#   Color: '#FF4500'
-#   Icon-Class: fab fa-reddit-alien
-
-  # PINTEREST
-# - Name: Pinterest
-#   URL: https://pinterest.com
-#   Username: 'arbje'
-#   Color: '#E60023'
-#   Icon-Class: fab fa-pinterest
-
-# TIKTOK
-# - Name: TikTok
-#   URL: https://www.tiktok.com
-#   Username: '@fotostudiokortrijk'
-#   Color: '#FE2C55'
-#   Icon-Class: fab fa-tiktok
-
-# CUSTOM LINK
-- Name: LinkedIn
-  URL: https://www.linkedin.com/company/fotostudio-kortrijk/
-  Icon-Class: fas fa-link
-  Color: '#0a66c2'
-  Text_Color: '#ffffff'
-
-# EMAIL
-- Name: Email
-  URL: 'mailto:bram@vandenbussche.me'
-  Icon-Class: fas fa-envelope
-  Color: '#02aacb'
+# Workshop
+- Name: Workshop
+  URL: https://fotostudiokortrijk.be/workshop-studio-fotografie/
+  Icon-Class: fas fa-camera
+  Color: '#1a5273'
   Text_Color: '#ffffff'

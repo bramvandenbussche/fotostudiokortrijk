@@ -32,18 +32,23 @@ layout: compress
                 <p class="text-base break-words inline-flex font-normal mt-1.5 mx-auto text-center opacity-75 2xl:w-6/12 xl:w-6/12 md:w-6/12 sm:w-full justify-center">
                     {{site.tagline}}
                 </p>
+                
+                {% unless site.data.links == "" %}
+                    {% include links.html %}
+                {% endunless %}
 
-                <div class="my-10">                    
-                    {% include opening.html %}
-                    <hr class="my-2 opacity-25">
-                </div>
+                <hr class="my-2 opacity-25">
 
-                <div class="grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 my-7">
-                <!-- <div class="flex flex-wrap my-7"> -->
-                    {% unless site.data.links == "" %}
-                        {% include links.html %}
-                    {% endunless %}
-                </div>
+                {% unless site.data.contact == "" %}
+                    {% include contact.html %}
+                {% endunless %}
+
+                <hr class="my-2 opacity-25">
+
+                {% unless site.data.socials == "" %}
+                    {% include socials.html %}
+                {% endunless %}
+
             </span>
             {% if site.footer and site.footer == 'Yes' or site.footer == 'yes' or site.footer == 'y' or site.footer == 'Y' %}<div
                 class="flex absolute mt-5 z-20 bottom-0 bg-black bg-opacity-50 w-full p-2 justify-center">Made

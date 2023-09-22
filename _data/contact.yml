@@ -1,0 +1,20 @@
+
+# EMAIL
+- Name: Email
+  URL: 'mailto:info@fotostudiokortrijk.be'
+  Icon-Class: fas fa-envelope
+  Color: '#02aacb'
+  Text_Color: '#ffffff'
+
+# Whatsapp
+- Name: Whatsapp
+  URL: 'https://wa.me/32497213304'
+  Icon-Class: fab fa-whatsapp
+  Color: '#00ba3b'
+  Text_Color: '#ffffff'
+
+# Instagram
+- Name: Instagram
+  URL: 'https://ig.me/m/fotostudiokortrijk'
+  Icon-Class: fab fa-instagram
+  Color: '#DD2A7B'

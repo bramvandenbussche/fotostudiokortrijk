@@ -1,4 +1,4 @@
-<h2>Links</h2>
+<h2>Social Media</h2>
 
 <div class="grid 
             2xl:grid-cols-5 
@@ -7,14 +7,14 @@
             md:grid-cols-2 
             sm:grid-cols-1 
             my-7">
-{% for link in site.data.links %}
+
+{% for link in site.data.socials %}
 
         {% if link.URL %}
 
         <a class="flex"
            href="{{link.URL}}{% if link.Username %}/{{link.Username}}{% endif %}"
            target="_blank"
-           title="{{ link.Description }}"
            rel="noopener noreferrer">
                 <button class="links lg:m-5 md:5 sm:3.5 text-white hover:opacity-75 font-semibold my-2.5 mx-5 px-5 py-1.5 rounded-md w-full place-content-center h-14 w-32"
                 style="{% if link.Color %}
@@ -33,5 +33,4 @@
         {% endif %}
 
 {% endfor %}
-
 </div>
